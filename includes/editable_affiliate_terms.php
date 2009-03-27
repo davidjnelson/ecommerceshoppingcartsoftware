@@ -1,0 +1,1 @@
+<P><EM>Please put your affiliate terms here.</EM></P>
