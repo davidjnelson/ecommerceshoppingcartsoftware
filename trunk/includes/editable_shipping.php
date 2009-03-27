@@ -1,0 +1,1 @@
+<STRONG>this is <!--store_name_begin-->Ecommerce Shopping Cart Software<!--store_name_end-->s shipping &amp; returns policy.</STRONG> 

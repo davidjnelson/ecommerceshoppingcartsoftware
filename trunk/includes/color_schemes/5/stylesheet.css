@@ -1,0 +1,366 @@
+/*
+
+  Ecommerce Shopping Cart Software
+  http://www.ecommerceshoppingcartsoftware.org
+
+  Copyright (c) 2004 Ecommerce Shopping Cart Software Developers.  Portions copyright (c) 2000-2004 osCommerce: http://www.oscommerce.com
+
+  Released under the GNU General Public License
+  
+*/
+
+/* ----------------- */
+/* sorting by colors */
+/* ----------------- */
+
+/* --- */
+/* red */
+/* --- */
+
+/* input requirement */
+/* red */
+.inputRequirement { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #ff0000; }
+/* this is a dark text color, maroon */
+.stockWarning { font-family : Verdana, Arial, sans-serif; font-size : 10px; color: #cc0033; }
+/* a red error msg */
+TR.headerError {
+  background: #ff0000;
+}
+/* red */
+SPAN.newItemInCart {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  color: #ff0000;
+}
+/* red */
+SPAN.productSpecialPrice {
+  font-family: Verdana, Arial, sans-serif;
+  color: #ff0000;
+}
+
+/* -------------- */
+/* blue or purple */
+/* -------------- */
+/* breadcrumbs.  */
+.breadcrumbs { font-family: verdana, arial; color: 8EAB8B; font-size: 10pt; }
+/* blue */
+A.pageResults {
+  color: #8EAB8B;
+}
+/* purple */
+TD.pageHeading, DIV.pageHeading {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #8EAB8B;
+}
+
+/* blue w/ gold background */
+A.pageResults:hover {
+  color: #CDE7CA;
+  background: #8EAB8B;
+}
+
+/* ---------- */
+/* light blue */
+/* ---------- */
+/* light bluish color */
+TD.infoBoxHeading {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  font-weight: bold;
+  background: #8EAB8B;
+  color: #ffffff;
+}
+/* light grey blue */
+TD.accountCategory {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 13px;
+  color: #8EAB8B;
+}
+/* light blue */
+.moduleRowOver { background-color: #8EAB8B; cursor: pointer; cursor: hand; }
+
+
+/* ---------------- */
+/* super light blue */
+/* ---------------- */
+/* super super light blue */
+TABLE.formArea {
+  background: #CDE7CA;
+  border-color: #7b9ebd;
+  border-style: solid;
+  border-width: 1px;
+}
+/* super light blue */
+.moduleRowSelected { background-color: #CDE7CA; }
+
+/* ---------- */
+/* light grey */
+/* ---------- */
+/* this is a very light gray color which you could use behind dark text */
+.productsNotifications { background: #f2fff7; }
+/* light gray */
+.infoBox {
+  background: #E0E1E0;
+  border: 1px;
+  border-style: dashed;
+}
+/* light grey */
+TR.accountHistory-odd, TR.addressBook-odd, TR.alsoPurchased-odd, TR.payment-odd, TR.productListing-odd, TR.productReviews-odd, TR.upcomingProducts-odd, TR.shippingOptions-odd {
+  background: #E0E1E0;
+}
+
+/* light grey */
+TR.accountHistory-even, TR.addressBook-even, TR.alsoPurchased-even, TR.payment-even, TR.productListing-even, TR.productReviews-even, TR.upcomingProducts-even, TR.shippingOptions-even {
+  background: #E0E1E0;
+}
+/* light grey */
+TR.subBar {
+  background: #E0E1E0;
+}
+
+/* --------- */
+/* grey blue */
+/* --------- */
+/* default rolled over link, grey-blue */
+A:hover {
+  /*color: #1F7216;*/
+  text-decoration: none;
+}
+/* greyish blue */
+TABLE.productListing {
+  border: 1px;
+  border-style: solid;
+  border-color: #1F7216;
+  border-spacing: 1px;
+}
+
+/* greyish blue */
+.productListing-heading {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+/* --------- */
+/* dark grey */
+/* --------- */
+/* medium dark grey-green */
+.checkoutBarFrom, .checkoutBarTo { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #12530B; }
+
+/* ----- */
+/* black */
+/* ----- */
+/* default link, dark color */
+A {
+  color: #000000;
+  text-decoration: underline;
+}
+/* black */
+TD.subBar {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  color: #000000;
+}
+/* black */
+.checkoutBarCurrent { font-family: Verdana, Arial, sans-serif; font-size: 10px; color: #000000; }
+
+/* ----------------------- */
+/* orange or pink or brown */
+/* ----------------------- */
+/* 
+   this is the error messages at the top of the screen
+   a darkish color that you can still read black writing on */
+.errorBox { font-family : Verdana, Arial, sans-serif; font-size : 10px; background: #ffb3b5; font-weight: bold; }
+/* pinkish color */
+.infoBoxNotice {
+  background: #979797;
+}
+/* light pinkish color */
+.infoBoxNoticeContents {
+  background: #979797;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+/* light brown */
+SPAN.greetUser {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  color: #979797;
+  font-weight: bold;
+}
+/* dark pink */
+SPAN.markProductOutOfStock {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 12px;
+  color: #979797;
+  font-weight: bold;
+}
+/* hideous pink */
+.messageStackError, .messageStackWarning { font-family: Verdana, Arial, sans-serif; font-size: 10px; background-color: #979797; }
+
+
+/* ---------- */
+/* lime green */
+/* ---------- */
+/* this is an awful lime green color.  you could put light or dark text on it, neither would look good. */
+.orderEdit { font-family : Verdana, Arial, sans-serif; font-size : 10px; color: #70d250; text-decoration: underline; }
+/* an awful lime green */
+TR.headerInfo {
+  background: #1CF805;
+}
+/* lime green / white */
+TD.headerInfo {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 12px;
+  background: #1CF805;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+/* horid lime green */
+.messageStackSuccess { font-family: Verdana, Arial, sans-serif; font-size: 10px; background-color: #1CF805; }
+
+
+/* ----- */
+/* white */
+/* ----- */
+/* body */
+BODY {
+  /*background: #ffffff;*/
+  color: #000000;
+  margin: 0px;
+}
+/* default table row */
+TR.header {
+  background: #ffffff;
+}
+/* the background for the red error msg */
+TD.headerError {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 12px;
+  background: #ff0000;
+  color: #ffffff;
+  font-weight : bold;
+  text-align : center;
+}
+/* white w/ really pretty blue */
+TD.footer {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+  background: #587CBE;
+  color: #ffffff;
+  font-weight: bold;
+  padding-top : 1px;
+  padding-bottom : 2px;
+}
+.boxTextNoRollover
+{
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+a.boxTextNoRollover:hover
+{
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 14px;
+  color: #ffffcc;
+  
+}
+
+
+/* ------------------------- */
+/* not a color based element */
+/* (or not used)             */
+/* ------------------------- */
+
+/* this is the content inside the infoboxes
+ a dark color if infobox has a light background */
+.boxText { font-family: Verdana, Arial, sans-serif; font-size: 10px; }
+/* these three are for the nav menu at the top of the default ui.  currently not used */
+.buttonsBorder { color: #000000; }
+.buttonsInner { color: #f5f5f5; }
+.buttonsRollover { color: #87cefa; }
+/* default form */
+FORM {
+	display: inline;
+}
+/* don't think these next two are used */
+A.headerNavigation { 
+  color: green; 
+  font-face: verdana;
+  font-size: 20pt;
+}
+A.headerNavigation:hover {
+  color: #green;
+  font-face: verdana;
+  font-size: 10pt;
+}
+TR.footer {
+ /* background: #bbc3d3;*/
+}
+.infoBoxContents {
+  /*background: #f8f8f9;*/
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+TD.infoBox, SPAN.infoBox {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+TD.productListing-data {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+TD.main, P.main {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+TD.smallText, SPAN.smallText, P.smallText {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 10px;
+}
+TD.fieldKey {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+TD.fieldValue {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+}
+
+TD.tableHeading {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+TD.category_desc {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1.5;
+}
+CHECKBOX, INPUT, RADIO, SELECT {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+}
+
+TEXTAREA {
+  width: 100%;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 11px;
+}
+TD.formAreaTitle {
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+.moduleRow { }
+/* message box */
+.messageBox { font-family: Verdana, Arial, sans-serif; font-size: 10px; }
