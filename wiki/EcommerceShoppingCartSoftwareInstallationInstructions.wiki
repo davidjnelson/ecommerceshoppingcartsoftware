@@ -7,6 +7,8 @@ This wiki will guide you on how to install Ecommerce Shopping Cart Software.
 
 = Details =
 
+{{{
+
 --------------------------------------------
 Installing Ecommerce Shopping Cart Software:
 --------------------------------------------
@@ -40,5 +42,7 @@ Tips & Tricks:
 -------------------
 Further Assistance:
 -------------------
+
+}}}
 
 If you need further assistance, professional installation help is available for purchase here at [http://www.ecommerceshoppingcartsoftware.org]
